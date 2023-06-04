@@ -1,0 +1,38 @@
+{
+  "name": "icon-mh",
+  "version": "1.0.0",
+  "description": "use icon test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "svg:optmize": "svgo -f ./icons/thin -o ./icons/thin",
+    "svg:to-path": "svgtofont --sources ./icons/regular --output ./src/fonts"
+  },
+
+  "svgtofont": {
+    "fontName": "ruler",
+    "website": false,
+    "outSVGReact": false,
+    "css": {
+      "output": "./src",
+      "fileName": "ruler-icon",
+      "include": "\\.(css)$",
+      "cssPath" : "./fonts/"
+    }
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minheeyoon-29cm/icon-mh.git"
+  },
+  "author": "dsPackage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minheeyoon-29cm/icon-mh/issues"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "svgo": "^3.0.2",
+    "svgtofont": "^3.24.0"
+  }
+}

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "ruler";
+  src: url('./fonts/ruler.eot?t=1685909599974'); /* IE9*/
+  src: url('./fonts/ruler.eot?t=1685909599974#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("./fonts/ruler.woff2?t=1685909599974") format("woff2"),
+  url("./fonts/ruler.woff?t=1685909599974") format("woff"),
+  url('./fonts/ruler.ttf?t=1685909599974') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./fonts/ruler.svg?t=1685909599974#ruler') format('svg'); /* iOS 4.1- */
+}
+
+[class^="ruler-"], [class*=" ruler-"] {
+  font-family: 'ruler' !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.ruler-ic_arrow_left:before { content: "\ea01"; }
+.ruler-ic_bag:before { content: "\ea02"; }
+.ruler-ic_bell:before { content: "\ea03"; }
+.ruler-ic_box:before { content: "\ea04"; }
+.ruler-ic_chevron_down:before { content: "\ea05"; }
+.ruler-ic_chevron_left:before { content: "\ea06"; }
+.ruler-ic_chevron_right:before { content: "\ea07"; }
+.ruler-ic_chevron_up:before { content: "\ea08"; }
+.ruler-ic_close:before { content: "\ea09"; }
+.ruler-ic_document:before { content: "\ea0a"; }
+.ruler-ic_download:before { content: "\ea0b"; }
+.ruler-ic_heart:before { content: "\ea0c"; }
+.ruler-ic_home:before { content: "\ea0d"; }
+.ruler-ic_house:before { content: "\ea0e"; }
+.ruler-ic_my:before { content: "\ea0f"; }
+.ruler-ic_search:before { content: "\ea10"; }
+.ruler-ic_search_list:before { content: "\ea11"; }
+.ruler-ic_setting:before { content: "\ea12"; }
+
