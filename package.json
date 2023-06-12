@@ -8,7 +8,6 @@
     "svg:optmize": "svgo -f ./icons/thin -o ./icons/thin",
     "svg:to-path": "svgtofont --sources ./icons/regular --output ./src/fonts"
   },
-
   "svgtofont": {
     "fontName": "ruler",
     "website": false,
@@ -17,10 +16,9 @@
       "output": "./src",
       "fileName": "ruler-icon",
       "include": "\\.(css)$",
-      "cssPath" : "./fonts/"
+      "cssPath": "./fonts/"
     }
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/minheeyoon-29cm/icon-mh.git"
@@ -32,6 +30,7 @@
   },
   "homepage": "",
   "devDependencies": {
+    "@svgr/webpack": "^8.0.1",
     "svgo": "^3.0.2",
     "svgtofont": "^3.24.0"
   }
